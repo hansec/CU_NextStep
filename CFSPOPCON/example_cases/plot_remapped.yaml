@@ -1,0 +1,38 @@
+type: popcon
+
+figsize: [6,4]
+show_dpi: 150
+
+new_coords:
+  x:
+    dimension: peak_ion_temp
+    label: "$T_{i,0}$ (keV)"
+    units: keV
+    max: 5
+  y:
+    dimension: greenwald_fraction
+    label: "$f_{GW}$ "
+    units: ''
+
+
+points:
+  PRD:
+    label: "PRD"
+    marker: "x"
+    color: "red"
+    size: 50.0
+
+# Suggested colors are "tab:red", "tab:blue", "tab:orange", "tab:green", "tab:purple",
+# "tab:brown", "tab:pink", "tab:gray", "tab:olive", "tab:cyan"
+contour:
+  P_auxillary_launched:
+    label: "$P_{aux}$"
+    levels: [1.0, 5.0, 10.0, 25.0, 50.0]
+    color: "tab:red"
+    format: "1.2g"
+
+  normalized_beta:
+    label: "$\\beta_{N}$"
+    levels: [1.0, 2.0, 3.0]
+    color: "tab:blue"
+    format: "1.2g"
