@@ -1,0 +1,10 @@
+&runtime_options
+ debug=0
+/
+
+&mesh_options
+ meshname='none'
+ 
+/
+
+
