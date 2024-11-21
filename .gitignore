@@ -162,7 +162,7 @@ cython_debug/
 #.idea/
 
 # Large output folders from TokaMaker
-DIIID/gEQDSKs/*
+DIIID/gEQDSKs/*tm*
 DIIID/meshes/*.h5
 *oftpyin
 *tokamaker_f.prof
